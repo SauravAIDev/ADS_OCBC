@@ -1,0 +1,1 @@
+{"description":"This will take data from Extracted List and take Data from Database and then match them and give a list of Booleans.","groupId":"rlkuma657.demo_ocbc.automatching_decision_service","locale":"en_US","properties":{"refactoringEnabled":false,"tags":[]}}
