@@ -11,8 +11,7 @@
     	- the Party As of DatabaseList contain the Party A of this Extracted //item 
     	- the Party Bs of DatabaseList contain the Party B of this Extracted //item 
     	- the Reference Numbers of DatabaseList contain the Reference Number of this Extracted //item 
-    	- the Reference Currencies of DatabaseList contain the Reference Currency of this Extracted //item
-    	- the Valuation Dates of DatabaseList contain the Valuation Date of this Extracted //item 
+    	- the Settlement Dates of DatabaseList contain the Settlement Date of this Extracted //item 
     	- the Trade Dates of DatabaseList contain the Trade Date of this Extracted //item ,
 	then 
 		add true to decision;

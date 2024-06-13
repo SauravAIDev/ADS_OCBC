@@ -23,16 +23,16 @@
         </extensionElements>
         <variable id="node_2_ii" name="DatabaseList" typeRef="rlkuma657.demo_ocbc.automatching_decision_service.datamodel.Extracted[]"/>
     </inputData>
-    <decision id="node_4" name="Decision 4">
+    <decision id="node_4" name="Automatching Decision">
         <extensionElements>
-            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="collect">
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="rlkuma657.demo_ocbc.automatching_decision_service.datamodel.Extracted" collection="true" name="ExtractedList"/>
                 <input bomType="rlkuma657.demo_ocbc.automatching_decision_service.datamodel.Extracted" collection="true" name="DatabaseList"/>
-                <output bomType="java.lang.Boolean" collection="true" name="Decision 4"/>
+                <output bomType="java.lang.Boolean" collection="true" name="Automatching Decision"/>
                 <rule defaultRule="false" href="node_4/Test.drl" kind="BusinessRule" name="Test"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_4_ii" name="Decision 4" typeRef="java.lang.Boolean[]"/>
+        <variable id="node_4_ii" name="Automatching Decision" typeRef="java.lang.Boolean[]"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>
