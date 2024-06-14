@@ -31,7 +31,7 @@ class Extracted
                 property ads.attributeId "3"
                 property com.fasterxml.jackson.annotation.JsonProperty "TradeDate"
                 #update;
-    Extracted(double notionalAmount, string partyA, string partyB, double referenceNumber, java.time.LocalDate tradeDate, java.time.LocalDate settlementDate)
+    Extracted(double notionalAmount, string partyA, string partyB, double referenceNumber, java.time.LocalDate settlementDate, java.time.LocalDate tradeDate)
                 #autoExpand
                 #beanConstructor
                 property groups "BALA"
